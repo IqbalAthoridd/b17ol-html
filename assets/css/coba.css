@@ -1,0 +1,159 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* .item {
+    width: 200px;
+    border: 1px solid;
+    margin: 20px 0;
+} */
+
+.login-container .item-logo {
+    width: 200px;
+    margin: 100px 0 35px 0;
+}
+
+.login-container .item-logo .img-logo{
+    margin: 0 8px 0 35px;
+    height: 50px;
+    width: 35px;
+}
+
+.login-container .item-logo .text-blanja {
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #DB3022;
+    position: absolute;
+    margin-top: 20px;    
+
+}
+
+.login-container .text-account{
+margin-bottom: 55px;
+}
+
+.login-container .text-account .text {
+    font-family: metropolis;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.login-container .login-button{
+    margin-bottom: 45px;
+}
+
+.login-container .login-button .btn1{
+    background-color: #DB3022;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 12px 22px 12px 22px;
+    border: 1px  #DB3022;
+    float: left;
+}
+.login-container .login-button .btn2{  
+    border: 1px  #9B9B9B;
+    border-radius: 4px 0px 0px 4px;
+    padding: 12px 35px 12px 35px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+
+.login-container .login-input {
+    
+}
+
+.login-container .login-input .input-username{
+    border: 1px solid #9B9B9B;
+    width: 370px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.login-container .login-input .input-password{
+    border: 1px solid #9B9B9B;
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    display: block;
+}
+
+.login-container .login-input .input-username::placeholder{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+    padding-left: 10px;
+}
+
+.login-container .login-input .input-password::placeholder{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+    padding-left: 10px;
+}
+
+.login-container .login-input .forgot-password{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #DB3022;
+    float: right;
+    font-weight: bold;
+}
+
+.login-container .login-input .btn-primary{
+    margin-top: 20px;
+    width: 370px;
+    border-radius: 25px;
+    height: 45px;
+    color: white;
+    background-color:#DB3022 ;
+    border: 1px  #DB3022;
+    /* margin-left: 10px; */
+}
+
+.login-container .login-input .text-bottom{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: bold;
+    color: #222222;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 35px 0px 0px 45px;
+}
+
+.login-container .login-input .text-register {
+    color: #DB3022;
+}
+
+.login-container .login-input .register-link{
+    text-decoration: none;
+}

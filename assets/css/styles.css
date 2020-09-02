@@ -10,8 +10,8 @@
     font-family: metropolis3;
     src: url("../font/metropolis.semi-bold.otf");
   }
-
-.login-container{
+/*login */
+  .login-container{
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -19,11 +19,6 @@
     flex-wrap: wrap;
     align-items: center;
 }
-/* .item {
-    width: 200px;
-    border: 1px solid;
-    margin: 20px 0;
-} */
 
 .login-container .item-logo {
     width: 200px;
@@ -48,11 +43,11 @@
 
 }
 
-.text-account{
+.login-container .text-account{
 margin-bottom: 55px;
 }
 
-.text-account .text {
+.login-container .text-account .text {
     font-family: metropolis;
     font-style: normal;
     font-size: 16px;
@@ -60,11 +55,11 @@ margin-bottom: 55px;
     color: #222222;
 }
 
-.login-button{
+.login-container .login-button{
     margin-bottom: 45px;
 }
 
-.login-button .btn1{
+.login-container .login-button .btn1{
     background-color: #DB3022;
     box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
     border-radius: 4px 0px 0px 4px;
@@ -78,7 +73,7 @@ margin-bottom: 55px;
     border: 1px  #DB3022;
     float: left;
 }
-.login-button .btn2{  
+.login-container .login-button .btn2{  
     border: 1px  #9B9B9B;
     border-radius: 4px 0px 0px 4px;
     padding: 12px 35px 12px 35px;
@@ -91,19 +86,11 @@ margin-bottom: 55px;
     color: #9B9B9B;
 }
 
-.login-input {
+.login-container .login-input {
     
 }
 
-.login-input .input-username{
-    border: 1px solid #9B9B9B;
-    width: 370px;
-    height: 40px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
-.login-input .input-password{
+.login-container .login-input .input-login{
     border: 1px solid #9B9B9B;
     width: 370px;
     height: 40px;
@@ -111,7 +98,7 @@ margin-bottom: 55px;
     display: block;
 }
 
-.login-input .input-username::placeholder{
+.login-container .login-input .input-login::placeholder{
     font-family: metropolis2;
     font-style: normal;
     font-weight: 500;
@@ -121,17 +108,8 @@ margin-bottom: 55px;
     padding-left: 10px;
 }
 
-.login-input .input-password::placeholder{
-    font-family: metropolis2;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #9B9B9B;
-    padding-left: 10px;
-}
 
-.login-input .forgot-password{
+.login-container .login-input .forgot-password{
     font-family: metropolis2;
     font-style: normal;
     font-weight: normal;
@@ -142,7 +120,7 @@ margin-bottom: 55px;
     font-weight: bold;
 }
 
-.login-input .btn-primary{
+.login-container .login-input .btn-primary{
     margin-top: 20px;
     width: 370px;
     border-radius: 25px;
@@ -153,7 +131,7 @@ margin-bottom: 55px;
     /* margin-left: 10px; */
 }
 
-.login-input .text-bottom{
+.login-container .login-input .text-bottom{
     font-family: metropolis2;
     font-style: normal;
     font-weight: bold;
@@ -163,8 +141,160 @@ margin-bottom: 55px;
     margin: 35px 0px 0px 45px;
 }
 
-.login-input .text-register {
+.login-container .login-input .text-register {
     color: #DB3022;
 }
 
+.login-container .login-input .register-link{
+    text-decoration: none;
+}
 
+
+
+
+/* Register */
+
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* .item {
+    width: 200px;
+    border: 1px solid;
+    margin: 20px 0;
+} */
+
+.register-container .item-logo {
+    width: 200px;
+    margin: 100px 0 35px 0;
+}
+
+.register-container .item-logo .img-logo{
+    margin: 0 8px 0 35px;
+    height: 50px;
+    width: 35px;
+}
+
+.register-container .item-logo .text-blanja {
+    font-family: metropolis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 20px;
+    color: #DB3022;
+    position: absolute;
+    margin-top: 20px;    
+
+}
+
+.register-container .text-account{
+margin-bottom: 55px;
+}
+
+.register-container .text-account .text {
+    font-family: metropolis;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.register-container .register-button{
+    margin-bottom: 45px;
+}
+
+.register-container .register-button .btn1{
+    background-color: #DB3022;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px 0px 0px 4px;
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 12px 22px 12px 22px;
+    border: 1px  #DB3022;
+    float: left;
+}
+.register-container .register-button .btn2{  
+    border: 1px  #9B9B9B;
+    border-radius: 4px 0px 0px 4px;
+    padding: 12px 35px 12px 35px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+
+.register-container .register-input {
+    
+}
+
+.register-container .register-input .input-register{
+    border: 1px solid #9B9B9B;
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    display: block;
+}
+
+
+.register-container .register-input .input-register::placeholder{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+    padding-left: 10px;
+}
+
+
+.register-container .register-input .forgot-password{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #DB3022;
+    float: right;
+    font-weight: bold;
+}
+
+.register-container .register-input .btn-primary{
+    margin-top: 20px;
+    width: 370px;
+    border-radius: 25px;
+    height: 45px;
+    color: white;
+    background-color:#DB3022 ;
+    border: 1px  #DB3022;
+    /* margin-left: 10px; */
+}
+
+.register-container .register-input .text-bottom{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: bold;
+    color: #222222;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 35px 0px 0px 45px;
+}
+
+.register-container .register-input .text-register {
+    color: #DB3022;
+}
+
+.register-container .register-input .register-link{
+    text-decoration: none;
+}
