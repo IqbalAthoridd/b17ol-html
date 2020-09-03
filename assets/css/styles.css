@@ -901,6 +901,361 @@ border-radius: 4px;
     outline: none;
 }
 
+.detail{
+    display: flex;
+    width: 85%;
+    padding: 0 100px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.detail .detail-foto{
+    display: flex;
+    flex-direction: column;
+    width: 378px;
+    height: 470px;
+    margin-right: 28px;
+    
+}
+.detail .detail-foto .foto-besar{
+    margin-bottom: 17px;
+}
+.detail .detail-foto .foto-kecil .baris-foto{
+    display: flex;
+}
+
+.detail .detail-foto .foto-kecil .baris-foto img{
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.ket-produk{
+    display: flex;
+    flex-direction: column;
+}
+
+.ket-produk .title .text-baju{
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222222;
+    display: block;
+    margin-bottom: 10px;
+}
+.ket-produk .title{
+    margin-bottom: 40px;
+}
+
+.ket-produk .title .brand-produk{
+    font-family: metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+    
+}
+
+.ket-produk .produk-price .text-p{
+    display: block;
+    font-family: Metropolis2;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+}
+
+.ket-produk .produk-price .price{
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;    
+    line-height: 33px;
+    color: #222222;
+}
+.ket-produk .produk-price{
+    margin-bottom: 40px;
+}
+.ket-produk .color span{
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+    margin-bottom: 14px;
+}
+
+.ket-produk .color .baris-color{
+    display: flex;
+    margin-top: 9px;
+}
+
+.ket-produk .color .baris-color button{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: none;
+}
+
+.ket-produk .color .baris-color button.black{
+    background: #1A1A1A;
+}
+.ket-produk .color .baris-color button.red{
+    background: #D84242;
+}
+.ket-produk .color .baris-color button.blue{
+    background: #4290D8;
+}
+.ket-produk .color .baris-color button.green{
+    background: #42D86C;
+}
+.ket-produk .size{
+    margin-top: 35px;
+    margin-bottom: 47px;
+}
+
+.ket-produk .size .size-p{
+    display: flex;
+}
+.ket-produk .size .size-p button:focus{
+    outline: none;
+}
+
+.ket-produk .size .size-p .size-1{
+    margin-right: 80px;
+}
+
+.ket-produk .size .size-p button.btn-produk{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.ket-produk .size .size-p button.btn-produk.btn-min{
+    background: #D4D4D4;
+    border: 1px solid #D4D4D4;
+    margin-right: 10px;
+}
+
+.ket-produk .size .size-p button.btn-produk.btn-min img{
+    margin-bottom: 5px;
+}
+
+.ket-produk .size .size-p button.btn-produk.btn-plus{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);
+    border: 1px solid #FFFFFF;
+    margin-left: 10px;
+}
+
+.text-btn-p{
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+
+.head-text-p{
+    margin-bottom: 14px;
+}
+
+.head-text-p .text-p{
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+
+.btn-produk .btn-detail{
+    display: flex;
+}
+
+.btn-produk .btn-detail button{
+    margin-left: 10px;
+}
+
+.btn-produk .btn-detail button:focus{
+    outline: none;
+}
+
+.btn-produk .btn-detail .btn-chat button{
+    width: 160px;
+    height: 48px;
+    border: 1.5px solid #222222;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    font-family: Metropolis;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: metropolis3;
+    text-align: center;
+}
+
+.btn-produk .btn-detail .btn-but button{
+    width: 343px;
+    height: 48px;
+    background: #DB3022;
+    border-radius: 25px;
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #D84242;
+}
+
+.produk-description{
+    padding: 0 100px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.produk-description .title1{
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;    
+    line-height: 28px;
+    color: #222222;
+    margin-bottom: 40px;
+}
+
+.produk-description .text-condition{
+    margin-bottom: 40px;
+}
+
+.produk-description .text-condition .text1{
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #222222;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.produk-description .text-condition .text2{
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #DB3022;
+}
+
+.produk-description .text-description .label{
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.produk-description .text-description .isi p{
+    color: #9b9b9b;
+    font-family: metrolpolis2;
+    font-style: normal;
+    padding-bottom: 10px;
+    line-height: 1.6;
+    
+}
+
+.hr{
+    padding: 0 100px;
+    width: 85%;
+}
+
+.produk-container{
+    display: flex;
+    padding: 0 100px;
+    flex-wrap: wrap;
+    width: 95%;
+  
+}
+
+.produk-container img.card-img{
+    width: 208px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.produk-container .card{
+    margin-right: 30px;
+    margin-bottom: 25px;
+    width: 208px;
+    height: 278px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+    border-radius: 8px;
+}
+
+.produk-container .card .produk-name{
+    width: 184px;
+    height: 48px;
+    padding: 10px 12px 6px 12px;
+}
+.produk-container .card .produk-name .text-produk{
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.produk-container .card .price{
+    width: 52px;
+    height: 16px;
+    padding: 0px 144px 0px 12px;
+}
+
+.produk-container .card .price .text-price{
+    color: #DB3022;
+    font-family: metropolis3;
+    font-size: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:16px;
+}
+
+.produk-container .card .brand{
+    width: 71px;
+    height: 12px;
+    padding: 0px 125px 11px 12px;
+}
+
+.produk-container .card .brand .text-brand{
+    font-family: metropolis3;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+
+.produk-container .card .star{
+    padding: 0px 101px 20px 12px ;
+}
+
 
 
 
